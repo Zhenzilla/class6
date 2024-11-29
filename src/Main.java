@@ -7,6 +7,7 @@ public class Main {
         HydrogenEngine hydrogenEngine3 = new HydrogenEngine();
         HydrogenEngine hydrogenEngine4 = new HydrogenEngine();
         HydrogenEngine hydrogenEngine5 = new HydrogenEngine();
+        HydrogenEngine hydrogenEngine6 = new HydrogenEngine();
         DieselEngine dieselEngine = new DieselEngine();
 
         ArrayList<EngineInterface> engineBox = new ArrayList<>();
@@ -15,6 +16,7 @@ public class Main {
         engineBox.add(hydrogenEngine3);
         engineBox.add(hydrogenEngine4);
         engineBox.add(hydrogenEngine5);
+        engineBox.add(hydrogenEngine6);
         engineBox.add(dieselEngine);
 
         for (EngineInterface engine : engineBox) {

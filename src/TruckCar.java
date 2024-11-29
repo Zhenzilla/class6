@@ -14,6 +14,7 @@ public class TruckCar implements CarInterface {
 
     @Override
     public String turnToSide(String side) {
+        System.out.println("bla");
         return switch (side) {
             case "right" -> "turned right";
             case "left" -> "turned left";
