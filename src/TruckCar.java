@@ -1,10 +1,24 @@
 public class TruckCar implements CarInterface {
     private EngineInterface engine;
     private int numberOfWheels;
+    private Brand brand;
 
-    public TruckCar(EngineInterface engine, int numberOfWheels) {
+
+
+
+
+    public TruckCar(EngineInterface engine, int numberOfWheels, Brand brand) {
         this.engine = engine;
         this.numberOfWheels = numberOfWheels;
+        this.brand = brand;
+    }
+
+    int getNumberOfWheels() {
+        return numberOfWheels;
+    }
+
+    public Brand getBrand() {
+        return brand;
     }
 
     @Override
