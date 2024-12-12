@@ -1,4 +1,4 @@
-public class TruckCar implements CarInterface {
+public class TruckCar extends AbstractCar implements CarInterface {
     private EngineInterface engine;
     private int numberOfWheels;
     private Brand brand;
@@ -8,6 +8,7 @@ public class TruckCar implements CarInterface {
 
 
     public TruckCar(EngineInterface engine, int numberOfWheels, Brand brand) {
+        super();
         this.engine = engine;
         this.numberOfWheels = numberOfWheels;
         this.brand = brand;

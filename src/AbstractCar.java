@@ -2,7 +2,7 @@ public abstract class AbstractCar {
     AbstractEngine engine;
 
 
-    public AbstractCar(AbstractEngine engine){
+    public AbstractCar(){
         this.engine = engine;
 
     }
